@@ -70,4 +70,22 @@
 			<version>0.0.3</version>
 		</dependency>
 	</dependencies>
+	
+	<profiles>
+		<profile>
+			<id>dev</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<mode>DEV</mode>
+			</properties>
+		</profile>
+		<profile>
+			<id>prod</id>
+			<properties>
+				<mode>PROD</mode>
+			</properties>
+		</profile>
+	</profiles>
 </project>
