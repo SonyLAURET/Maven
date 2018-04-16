@@ -40,13 +40,12 @@
 						<phase>package</phase>
 						<goals>
 							<goal>shade</goal>
-						</goals>
+						</goals>			
 					</execution>
 				</executions>
 			</plugin>
 		</plugins>
 	</build>
-
 
 	<dependencies>
 		<dependency>
